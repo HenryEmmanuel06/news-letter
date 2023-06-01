@@ -176,7 +176,7 @@ body {
     .showcase {
         float: none;
         margin-top: 15px;
-        padding: 40px;
+        padding: 10px;
         box-sizing: border-box;
         text-align: left;
         /* width: 50%; */
@@ -184,7 +184,7 @@ body {
     #error-empty {
         float: right;
         font-size: 12px;
-        margin-right: 37px;
+        margin-right: 0;
         font-weight: bold;
         color:  hsl(4, 100%, 67%);
      }
@@ -215,4 +215,24 @@ body {
         transition: 0.5s ease-in-out;
         
     }
+    #btn-sus {
+        width: 100%;
+        padding: 13px 0;
+        background-color: hsl(235, 18%, 26%);
+        color: hsl(0, 0%, 100%);
+        font-weight: 500;
+        border: none;
+        margin-top: 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+     }
+     #email {
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 8px;
+        border: 1px solid hsl(231, 7%, 60%);
+        border-radius: 8px;
+        color: hsl(235, 18%, 26%); 
+     }
  }
