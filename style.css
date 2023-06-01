@@ -1,0 +1,218 @@
+ @import url('https://fonts.googleapis.com/css2?family=Itim&family=Space+Grotesk:wght@500&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Space Grotesk', sans-serif;
+     box-sizing: border-box;
+ }
+ body {
+    background-color: hsl(235, 18%, 26%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+
+ .container {
+   background-color:  hsl(0, 0%, 100%);
+   width: 60%;
+   height: 30%;
+   padding: 10px;
+   display: inline-block;
+   margin-top: 90px;
+   border-radius: 30px;
+   
+ }
+ .container .main {
+    display: block;
+    float: right;
+    
+ }
+ .container .mobile {
+    display: none;
+ }
+ .showcase {
+    float: left;
+    margin-top: 25px;
+    padding: 35px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14px;
+    color: hsl(231, 7%, 60%);
+    /* width: 50%; */
+ }
+ .showcase h1 {
+    font-size: 2.7em;
+    color: hsl(235, 18%, 26%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+ }
+ .showcase ul {
+    list-style: none;
+    margin-top: 10px;
+ }
+ .showcase ul li {
+    padding: 10px;
+    display: block;
+    
+ }
+ .list-icon {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+ }
+ form {
+    margin-top: 20px;
+ }
+ #email {
+    width: 90%;
+    padding: 10px 20px;
+    margin-top: 8px;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 8px;
+    color: hsl(235, 18%, 26%); 
+ }
+ #email:focus {
+    outline: none;
+    border: 1px solid hsl(235, 18%, 26%);
+ }
+ label {
+    float: left;
+    font-size: 12px;
+    color: hsl(235, 18%, 26%);
+    font-weight: bold;
+ }
+ #error-empty {
+    float: right;
+    font-size: 12px;
+    margin-right: 40px;
+    font-weight: bold;
+    color:  hsl(4, 100%, 67%);
+    
+ }
+
+
+ #btn-sus {
+    width: 90%;
+    padding: 13px 0;
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+ }
+ #btn-sus:hover {
+    background-color: hsl(4, 100%, 67%);
+ }
+.modal {
+    display: none;
+    color: hsl(231, 7%, 60%);
+    font-size: 14px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    text-align: left;
+    width: 30%;
+    margin-top: 150px;
+    border-radius: 30px;
+    
+}
+.modal h1 {
+    font-size: 2.7em;
+    color: hsl(235, 18%, 26%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#diss-btn {
+    width: 90%;
+    padding: 13px 0;
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+#diss-btn:hover {
+    background-color: hsl(4, 100%, 67%);
+}
+.modal a {
+    color: hsl(235, 18%, 26%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+ @media screen and (max-width: 992px) {
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+    .container {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        
+    }
+    .container .main {
+        display: none;
+    }
+    .container .mobile {
+        display: block;
+    }
+    .showcase {
+        float: none;
+        margin-top: 15px;
+        padding: 40px;
+        box-sizing: border-box;
+        text-align: left;
+        /* width: 50%; */
+     }
+    #error-empty {
+        float: right;
+        font-size: 12px;
+        margin-right: 37px;
+        font-weight: bold;
+        color:  hsl(4, 100%, 67%);
+     }
+
+     .modal {
+        display: none;
+        color: hsl(231, 7%, 60%);
+        font-size: 14px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 20px;
+        text-align: left;
+        width: 100%;
+        margin-top: 100px;
+        border-radius: none;
+    }
+    #diss-btn {
+        width: 90%;
+        padding: 13px 0;
+        background-color: hsl(235, 18%, 26%);
+        color: hsl(0, 0%, 100%);
+        font-weight: 500;
+        border: none;
+        margin-top: 0;
+        position: absolute;
+        bottom: 10px;        
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        
+    }
+ }

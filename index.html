@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>News letter</title>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <img src="./images/illustration-sign-up-desktop.svg" alt="" class="main" width="300px">
+        <img src="./images/illustration-sign-up-mobile.svg" class="mobile" alt="" width="100%">
+        <div class="showcase">
+            <h1>Stay updated!</h1>
+            <p>Join 6000+ managers recieving monthly <br> update on:</p>
+            <ul>
+                <span><img class="list-icon" src="./images/icon-list.svg" alt=""></span><li>Product discovery and building what matters</li>
+                <span><img class="list-icon" src="./images/icon-list.svg" alt=""></span><li>Measuring to ensure updates are a success</li>
+                <span><img class="list-icon" src="./images/icon-list.svg" alt=""></span><li>And much more!</li>
+        
+            </ul>
+            <form action="#" method="get">
+                <div class="email-form">
+                    <label for="email">Email address</label><span id="error-empty"></span>
+                </div>
+                <input name="email" type="email" id="email" placeholder="email@company.com">
+                <button id="btn-sus" type="submit">Suscibe to monthly Newsletter</button>
+            </form>
+        </div>
+</div> 
+
+    <div class="modal">
+        <img src="./images/icon-success.svg" alt="">
+        <h1>Thanks for suscribing!</h1>
+        <p>A confirmation email as been sent to <a href="#" id="confirm-email"></a>. Pls open and and click the button inside to cconfirm Your subscription</p>
+        <button id="diss-btn">Dismiss</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
